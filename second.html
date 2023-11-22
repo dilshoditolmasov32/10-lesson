@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Developer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <section class="container">
+        <nav class="navbar">
+          <img src="./images/logo.bytrend.svg" alt="logo" />
+          <ul>
+            <li>
+              <a href="#">Services</a>
+              <a href="#">About</a>
+              <a href="#">Contacts</a>
+              <button class="btn1"><a href="./login.html">Log in</a></button>
+              <button class="btn2">Open an account</button>
+              <select name="language" id="language">
+                <option value="english">English</option>
+                <option value=" Ruscha">Ruscha</option>
+                <option value="Uzbek">Uzbek</option>
+              </select>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <div class="box2">
+            <img src="./images/logo.bytrend.svg" alt="logo" />
+            <h1>Welcome to ByTrend!</h1>
+            <div class="select2">
+              <p>Already have an account?</p>
+              <a href="./login.html">Log in</a>
+            </div>
+            <form>
+              <div class="Email">
+                <div class="email">
+                  <label for="email">Email</label>
+                </div>
+                <div class="EmaiL">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="dilshoditolmasov@gmail.com"
+                  />
+                </div>
+              </div>
+              <div class="call_number">
+                <div class="phone">Phone</div>
+                <div class="number">
+                  <input
+                    type="phone"
+                    name="phone"
+                    id="phone"
+                    placeholder="(+998)77.777.77.77"
+                  />
+                </div>
+              </div>
+              <div class="country_city">
+                <div class="Country">
+                  <div class="CountrY">Country</div>
+                  <div>
+                    <select name="country" id="country">
+                      <option value="Uzbekistan">Uzbekiston</option>
+                      <option value="USA">USA</option>
+                      <option value="Russia">Rossiya</option>
+                      <option value="China">Xitoy</option>
+                      <option value="Yapan">Yaponiya</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="city">
+                  <div class="city1">City</div>
+                  <div class="city2">
+                    <input type="text" />
+                  </div>
+                </div>
+              </div>
+              <div class="password">
+                <div class="Password">
+                  <label for="password">Password:</label>
+                </div>
+                <div class="dld">
+                  <input type="password" name="password" id="password" />
+                  <i class="bi bi-eye-slash" id="togglePassword"></i>
+                </div>
+              </div>
+              <div class="Password">
+                <div class="confirmpassword">
+                  <label for="Confirm password">Confirm password</label>
+                </div>
+                <input type="parol" id="parol" name="password" />
+              </div>
+              <a href="./login.html">
+                <div class="registor">
+                  <label for="registor">Registor</label>
+                </div>
+              </a>
+              <footer class="container">
+                <div class="footer2">
+                  By signing up, you are agreeing to our
+                  <div class="green">
+                    Terms & Conditions and Privacy Policy.
+                  </div>
+                </div>
+              </footer>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
